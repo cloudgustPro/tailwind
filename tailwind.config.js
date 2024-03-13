@@ -3,7 +3,11 @@ module.exports = {
   mode: 'jit',
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Roboto', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
